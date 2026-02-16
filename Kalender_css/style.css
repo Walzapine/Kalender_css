@@ -1,0 +1,84 @@
+        
+        body {
+            background-image: url('./img/blue.jpg');
+            color: black;
+            background-repeat: no-repeat;
+            font-family: "playwrite NZ Basic";
+        }
+
+        main {
+            margin-top: 4rem;
+            margin-left: 6rem;
+        }
+
+        header {
+            margin-top: 2rem;
+        }
+
+        p {
+            margin-top: 3rem;
+        }
+
+        aside {
+            margin-top: 5rem;
+        }
+
+        .button {
+            position: relative;
+            padding: 10px 22px;
+            background: #7c2be9;
+            border-radius: 6px;
+            color: #fff;
+            border: none;
+            font-size: 18px;
+            font-weight: 400;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+       #moveButton {
+            margin-top: auto;
+            margin-bottom: 30px;
+
+       }
+ 
+       .content-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 200px;
+            border: 1px solid black;
+            padding: 0.5rem 1rem;
+
+       }
+
+       .content-table th,
+        .content-table td {
+            border: 1px solid black;     
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content-table td:hover {
+            background-color: rgba(124, 43, 233, 0.6);
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        .selected-day {
+            background-color: #7c2be9;
+            font-weight: bold;
+        }
+
+        .blue {
+            background-color: blue;
+            font-weight: bold;
+        }
+
+        .red {
+            background-color: red;
+            font-weight: bold;
+        }
+       
+        
